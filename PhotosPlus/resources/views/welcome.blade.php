@@ -1,12 +1,5 @@
-@extends('layouts.app')
 
-<<<<<<< HEAD
-@section('content')
-    <example-component></example-component>
-@endsection
-=======
         <title>PHOTOSPLUS</title>
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
@@ -47,15 +40,12 @@
 
             .title {
                 font-size: 84px;
-                color: #05859E;
-                font-family: "Comic Sans MS", cursive, sans-serif;
             }
 
             .links > a {
-                font-family: "Comic Sans MS", cursive, sans-serif;
-                color: #000000;
+                color: #636b6f;
                 padding: 0 25px;
-                font-size: 18px;
+                font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -72,12 +62,12 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">Principal</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('login') }}">Ingresar</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a href="{{ route('register') }}">Registrar</a>
                         @endif
                     @endauth
                 </div>
@@ -85,7 +75,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    PHOTOSPLUS
+                   PHOTOSPLUS
                 </div>
 
                 <div class="links">
@@ -95,4 +85,4 @@
         </div>
     </body>
 </html>
->>>>>>> ba7c9ccafca85f4dc7a9dab16170eb9222dad924
+
