@@ -46,12 +46,15 @@
 
             .title {
                 font-size: 84px;
+                color: #05859E;
+                font-family: "Comic Sans MS", cursive, sans-serif;
             }
 
             .links > a {
-                color: #636b6f;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                color: #000000;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 18px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
