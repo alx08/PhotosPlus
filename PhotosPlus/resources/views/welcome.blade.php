@@ -6,7 +6,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Quito_montage.png/500px-Quito_montage.png);
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -40,6 +40,13 @@
 
             .title {
                 font-size: 84px;
+                color: #F0F8FF;
+                font-weight: bold;
+                border–top: 1px solid #444;
+                border–right: 1px solid #333;
+                border–bottom: 1px solid #000;
+                border–left: 1px solid #333;
+                background: #222;
             }
 
             .links > a {
