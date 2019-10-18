@@ -9,7 +9,7 @@
                 background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Quito_montage.png/500px-Quito_montage.png);
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
-                font-weight: 100;
+                font-weight: 200;
                 height: 100vh;
                 margin: 0;
             }
