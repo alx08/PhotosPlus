@@ -29,7 +29,9 @@
             }
 
             .top-right {
-                                top: 18px;
+                position: absolute;
+                right: 10px;
+                top: 18px;
             }
 
             .content {
