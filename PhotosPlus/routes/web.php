@@ -10,11 +10,15 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Se define la ruta, lo que se ponga en view ('sera el ...blade.php que se vea')
+Route::get('/inicio', function () {
+    return view('inicio');
+});
+
 
 Route::get('/', function () {
     return view('welcome');
 });
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
