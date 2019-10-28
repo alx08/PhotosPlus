@@ -11,6 +11,34 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+
+  <!-- Banner para el ingreso al sistema -->
+  <div class="flex-center position-ref full-height">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Principal</a>
+                    @else
+                        <a href="{{ route('login') }}">Ingresar</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}">Registrar</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
+
+            <div class="content">
+                <div class="title m-b-md">
+                   PHOTOSPLUS
+                </div>
+
+                <div class="links">
+                    
+                </div>
+            </div>
+        </div>
+
 <article class='gallery'>
   <a class='gallery-link' href='https://unsplash.it/1200/1000?image=1081'>
     <figure class='gallery-image'>
