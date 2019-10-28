@@ -11,12 +11,12 @@
 |
 */
 //Se define la ruta, lo que se ponga en view ('sera el ...blade.php que se vea')
-Route::get('/inicio', function () {
+Route::get('/', function () {
     return view('inicio');
 });
 
 
-Route::get('/', function () {
+Route::get('/pre', function () {
     return view('welcome');
 });
 Auth::routes();
