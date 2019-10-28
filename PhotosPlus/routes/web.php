@@ -12,13 +12,16 @@
 */
 //Se define la ruta, lo que se ponga en view ('sera el ...blade.php que se vea')
 Route::get('/', function () {
-    return view('inicio');
+    return view('inicial');
 });
 
 
 Route::get('/pre', function () {
     return view('welcome');
 });
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
