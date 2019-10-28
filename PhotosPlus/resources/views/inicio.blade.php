@@ -2,10 +2,10 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Magnific Gallery</title>
+  <title>PhotoPlus</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,600'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'><link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
 <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
 
 </head>
@@ -69,8 +69,8 @@
 </article>
 <footer id='footer' role='contentinfo'>
   <div class='container'>
-    <a class='logo' href='https://codepen.io/collection/XRoxGR' rel='home'>Calibration theme</a>
-    <a class='copy' href='https://mobilemarkup.com' target='_blank'>&copy; mobileMarkup.com</a>
+    <a class='logo' href='https://codepen.io/collection/XRoxGR' rel='home'>PhotoPlus</a>
+    <a class='copy' href='https://mobilemarkup.com' target='_blank'>&copy; Steven Illanes</a>
   </div>
 </footer>
 <!-- partial -->
