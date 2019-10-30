@@ -10,7 +10,8 @@ var demo = new Vue({
         hideTooltip: function(){
             this.show_tooltip = false;
         },
-        
+        toggleTooltip: function(){
+            this.show_tooltip = !this.show_tooltip;
         }
     }
 })
