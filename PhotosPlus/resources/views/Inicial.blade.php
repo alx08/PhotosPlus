@@ -81,10 +81,10 @@
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
-  <a class='gallery-link' href='https://unsplash.it/1200/1000?image=1014'>
+  <a class='gallery-link' href='https://i.imgur.com/uZC7pwF.jpg'>
     <figure class='gallery-image'>
-      <img height='1000' src='https://unsplash.it/1200/1000?image=1014' width='1200'>
-      <figcaption>Photo caption</figcaption>
+      <img height='1000' src='https://i.imgur.com/uZC7pwF.jpg' width='1200'>
+      <figcaption>Naturaleza</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://unsplash.it/1000/1600?image=267'>
