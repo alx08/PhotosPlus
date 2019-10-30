@@ -15,14 +15,9 @@
     <nav>
       <h2 class="logo">PhotoPlus</h2>
 
-      <!-- 
-      <ul>
-        <li>
-          <a href="">Work</a>
-        </li>
-        <li>
-          <a href="">Services</a>
-        </li>
+       
+      
+        <!--
         <li>
           <a href="">Team</a>
         </li>

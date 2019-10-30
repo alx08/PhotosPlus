@@ -15,6 +15,14 @@
     <nav>
       <h2 class="logo">PhotoPlus</h2>
 
+      <ul>
+        <li>
+          <a href="">Contacto</a>
+        </li>
+        <li>
+          <a href="">Preguntas Frecuentes</a>
+        </li>
+      </ul>
       <!-- 
       <ul>
         <li>
