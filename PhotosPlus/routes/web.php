@@ -17,7 +17,7 @@ Route::get('/', function () {
 Route::get('/editar', function () {
     return view('editar');
 });
-Route::get('/PF', function () {
+Route::get('/pf', function () {
     return view('pf');
 });
 Route::get('/contacto', function () {
