@@ -18,7 +18,7 @@ Route::get('/editar', function () {
     return view('editar');
 });
 Route::get('/pf', function () {
-    return view('PF');
+    return view('pf');
 });
 Route::get('/contacto', function () {
     return view('contactos');
