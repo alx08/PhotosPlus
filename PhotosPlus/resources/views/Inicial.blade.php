@@ -17,10 +17,10 @@
 
       <ul>
         <li>
-          <a href="">Contacto</a>
+          <a href="{{ url('/contacto') }}">Contacto</a>
         </li>
         <li>
-          <a href="">Preguntas Frecuentes</a>
+          <a href="{{ url('/PF') }}">Preguntas Frecuentes</a>
         </li>
       </ul>
       <!-- 
