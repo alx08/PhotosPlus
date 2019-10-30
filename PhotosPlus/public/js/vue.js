@@ -7,6 +7,9 @@ var demo = new Vue({
     },
 
     methods: {
+        hideTooltip: function(){
+            this.show_tooltip = false;
+        },
         
         }
     }
