@@ -303,3 +303,15 @@ a {
   font-size: 0.75em;
   font-weight: 600;
 }
+
+.card{
+  margin-top:120px;
+  display: table-cell;
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  font-family: arial;
+}
