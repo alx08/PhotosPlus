@@ -297,6 +297,7 @@ a {
 [id=footer] .logo {
   font-weight: 600;
   font-size: 1.5em;
+  background-color: white;
 }
 [id=footer] .copy {
   text-transform: uppercase;
