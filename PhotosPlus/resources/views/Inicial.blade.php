@@ -17,10 +17,10 @@
 
       <ul>
         <li>
-          <a href="">Contacto</a>
+          <a href="{{ url('/Contacto') }}">Contacto</a>
         </li>
         <li>
-          <a href="">Preguntas Frecuentes</a>
+          <a href="{{ url('/pf') }}">Preguntas Frecuentes</a>
         </li>
       </ul>
       <!-- 
@@ -61,7 +61,7 @@
             @endif
     </nav>
   </header>
-  
+
   <main class="page-main">
     
     <div>

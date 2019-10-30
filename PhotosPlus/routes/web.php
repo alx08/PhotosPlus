@@ -17,6 +17,12 @@ Route::get('/', function () {
 Route::get('/editar', function () {
     return view('editar');
 });
+Route::get('/pf', function () {
+    return view('PF');
+});
+Route::get('/contacto', function () {
+    return view('Contactos');
+});
 
 Route::get('/pre', function () {
     return view('welcome');
