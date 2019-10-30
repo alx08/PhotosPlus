@@ -6,4 +6,8 @@ var demo = new Vue({
         text_content: 'Edit me.'
     },
 
+    methods: {
+        
+        }
+    }
 })
