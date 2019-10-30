@@ -23,22 +23,7 @@
           <a href="{{ url('/pf') }}">Preguntas Frecuentes</a>
         </li>
       </ul>
-      <!-- 
-      <ul>
-        <li>
-          <a href="">Work</a>
-        </li>
-        <li>
-          <a href="">Services</a>
-        </li>
-        <li>
-          <a href="">Team</a>
-        </li>
-        <li>
-          <a href="">Careers</a>
-        </li>
-      </ul>
-      -->
+      
       
       @if (Route::has('login'))
                 <div class="top-right links">
