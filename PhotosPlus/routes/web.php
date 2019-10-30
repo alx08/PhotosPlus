@@ -23,7 +23,9 @@ Route::get('/pf', function () {
 Route::get('/contacto', function () {
     return view('contactos');
 });
-
+Route::get('/pix', function () {
+    return view('index');
+});
 Route::get('/pre', function () {
     return view('welcome');
 });
