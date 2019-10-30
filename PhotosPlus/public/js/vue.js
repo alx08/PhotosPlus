@@ -1,3 +1,9 @@
+// main.js
+import Vue from "vue"
+import VueSimpleAlert from "vue-simple-alert";
+
+Vue.use(VueSimpleAlert);
+
 var demo = new Vue({
     el: '#main',
 
