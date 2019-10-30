@@ -21,7 +21,7 @@ Route::get('/pf', function () {
     return view('PF');
 });
 Route::get('/contacto', function () {
-    return view('Contactos');
+    return view('contactos');
 });
 
 Route::get('/pre', function () {

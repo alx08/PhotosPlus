@@ -17,7 +17,7 @@
 
       <ul>
         <li>
-          <a href="{{ url('/Contacto') }}">Contacto</a>
+          <a href="{{ url('/contacto') }}">Contacto</a>
         </li>
         <li>
           <a href="{{ url('/pf') }}">Preguntas Frecuentes</a>
