@@ -8,6 +8,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,600'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
 <link rel="stylesheet" href="css/app.css">
+
 <link rel="stylesheet" href="{{ asset('css/styleinicial.css') }}" />
 <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
 <div class="wrapper">
