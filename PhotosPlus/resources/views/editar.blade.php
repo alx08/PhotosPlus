@@ -13,7 +13,7 @@
 <div class="wrapper">
   <header class="page-header">
     <nav>
-      <h2 class="logo">PhotoPlus</h2>
+      <h2> <a href="{{ url('/') }}" class="logo">PhotoPlus</a></h2>
 
        
       
