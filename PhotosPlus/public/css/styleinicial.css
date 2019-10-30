@@ -67,13 +67,14 @@ body {
 /* HEADER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-header {
-  background: var(white);
+  background: var(--main-purple-color);
 }
 .page-header nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 .page-header ul {
@@ -94,7 +95,7 @@ body {
   border: 1px solid;
   border-radius: 5px;
   margin-right:0;
-
+  color: white;
 }
 
 
