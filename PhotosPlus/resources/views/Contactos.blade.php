@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,600'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
+<link rel="stylesheet" href="css/app.css">
 
 <link rel="stylesheet" href="{{ asset('css/styleinicial.css') }}" />
 <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
@@ -14,18 +15,6 @@
   <header class="page-header">
     <nav>
       <h2> <a href="{{ url('/') }}" class="logo">PhotoPlus</a></h2>
-
-       
-      
-        <!--
-        <li>
-          <a href="">Team</a>
-        </li>
-        <li>
-          <a href="">Careers</a>
-        </li>
-      </ul>
-      -->
       
       @if (Route::has('login'))
                 <div class="top-right links">
@@ -50,8 +39,32 @@
             @endif
     </nav>
   </header>
- 
-
+ <div class="centro">
+  <div class="card-header">
+    Contacto    
+  </div>  
+  <div class="card-body">  
+          <div class="form-group">
+              @csrf
+              <label for="Nombre">Nombre:</label>
+              <input type="text" class="form-control" name="Nombre"/>
+          </div>
+          <div class="form-group">
+              <label for="Email">Email:</label>
+              <input type="text" class="form-control" name="Email"/>
+          </div>
+          <div class="form-group">
+              <label for="Teléfono">Teléfono:</label>
+              <input type="text" class="form-control" name="Teléfono"/>
+          </div>
+          <div class="form-group">
+              <label for="Mensaje">Mensaje:</label>
+              <input type="text" class="form-control" name="Mensaje"/>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+</div>
+</div>
 
   
   <footer class="page-footer">

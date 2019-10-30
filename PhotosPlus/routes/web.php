@@ -18,12 +18,15 @@ Route::get('/editar', function () {
     return view('editar');
 });
 Route::get('/pf', function () {
-    return view('PF');
+    return view('pf');
 });
+
 Route::get('/contacto', function () {
     return view('contactos');
 });
-
+Route::get('/pix', function () {
+    return view('index');
+});
 Route::get('/pre', function () {
     return view('welcome');
 });
