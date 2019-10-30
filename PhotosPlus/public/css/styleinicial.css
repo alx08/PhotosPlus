@@ -67,7 +67,7 @@ body {
 /* HEADER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-header {
-  background: var(white);
+  background: var(--main-white-color);
 }
 .page-header nav {
   display: flex;
