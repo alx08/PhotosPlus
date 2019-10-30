@@ -44,15 +44,14 @@
                 <div class="top-right links">
                     @auth
                         
-                        <a href="{{ url('/home') }}">
+                       <a href="{{ url('/home') }}">
                         <button class="cta-contact">Cuenta</button>
-
 
                     @else
                         <a href="{{ route('login') }}">
                         <button class="cta-contact">Ingresar</button>
-
-                        @if (Route::has('register'))
+                        
+                      @if (Route::has('register'))
                             <a href="{{ route('register') }}">
                             <button class="cta-contact">Registrar</button>
                         @endif
@@ -62,6 +61,7 @@
             @endif
     </nav>
   </header>
+  
   <main class="page-main">
     
     <div>
