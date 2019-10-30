@@ -52,7 +52,7 @@
           <body>
             <a href="javascript:pixlr.overlay.show({image:'http://4.bp.blogspot.com/-oJ98Ta02qro/VJWBER3fI9I/AAAAAAAADxo/YDOtgBvAn8s/s1600/jQuery-Autocomplete-Mutiple-Fields-Using-jQuery-Ajax-PHP-and-MySQL.png', title:'jQuery Autocomplete Mutiple Fields Using jQuery Ajax PHP and MySQL'});">
             <img src="http://4.bp.blogspot.com/-oJ98Ta02qro/VJWBER3fI9I/AAAAAAAADxo/YDOtgBvAn8s/s1600/jQuery-Autocomplete-Mutiple-Fields-Using-jQuery-Ajax-PHP-and-MySQL.png" class="img-responsive img-bottom-margin edit_image" title="Edit in pixlr" />
-            <button class="btn btn-default btn-success text-center pull-center">Edit In Pixlr</button>
+            <button class="btn btn-default btn-success text-center pull-center">Editar</button>
             </a>
 
             

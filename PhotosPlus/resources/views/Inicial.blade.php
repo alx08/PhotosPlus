@@ -7,9 +7,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,600'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
-
 <link rel="stylesheet" href="{{ asset('css/styleinicial.css') }}" />
 <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+    $(document).on('click','img',function(){
+              img = $(this).data('src');
+                pixlr.overlay.show({image:img, title:'pixlr editor'});
+            });
+  </script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/pixlr.js"></script>
+
+  <script type="text/javascript">
+  pixlr.settings.target = 'http://localhost/pixlr-editor/save.php';
+    pixlr.settings.exit = 'http://localhost/pixlr-editor/pixlr.php';
+    pixlr.settings.method = 'GET';
+    pixlr.settings.redirect = false;
+  </script>
 <div class="wrapper">
   <header class="page-header">
     <nav>
@@ -68,7 +82,8 @@
       <h1>Comienza a Editar</h1>
       <p>Solo necesitas imaginarlo para crearlo</p>
       <section id="banner">
-      <a href="{{ url('/editar') }}"> Editar </a>
+      <a href="javascript:pixlr.overlay.show({image:'http://4.bp.blogspot.com/-oJ98Ta02qro/VJWBER3fI9I/AAAAAAAADxo/YDOtgBvAn8s/s1600/jQuery-Autocomplete-Mutiple-Fields-Using-jQuery-Ajax-PHP-and-MySQL.png', title:'jQuery Autocomplete Mutiple Fields Using jQuery Ajax PHP and MySQL'});">
+            <button class="btn btn-default btn-success text-center pull-center">Editar</button>
     </div>
     </section>
   </main>
