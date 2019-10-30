@@ -62,55 +62,55 @@
   <article class='gallery'>
   <a class='gallery-link' href='https://unsplash.it/1200/1000?image=1081'>
     <figure class='gallery-image'>
-      <img height='1000' src='https://unsplash.it/1200/1000?image=1081' width='1200'>
+      <img height='1000' src='https://www.aviatur.com/source/revista-horizontes/cinco-ciudades-suizas.jpg' width='1200'>
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://i.imgur.com/uZC7pwF.jpg'>
     <figure class='gallery-image'>
-      <img height='1000' src='https://i.imgur.com/uZC7pwF.jpg' width='1200'>
+      <img height='1000' src='https://content.tui.co.uk/adamtui/2019_3/22_17/9e062855-3edc-43ee-81b3-aa18012749e4/LOC_000548_shutterstock_1279328692WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.crop(width:1080%2Cheight:608)' width='1200'>
       <figcaption>Naturaleza</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://unsplash.it/1000/1600?image=267'>
     <figure class='gallery-image'>
-      <img height='1600' src='https://unsplash.it/1000/1600?image=267' width='1000'>
+      <img height='1600' src='https://steemitimages.com/p/o1AJ9qDyyJNSpZWhUgGYc3MngFqoAMzdB8b6JFWeFq75MXWQn?format=match&mode=fit&width=640' width='1000'>
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://unsplash.it/1200/1600?image=266'>
     <figure class='gallery-image'>
-      <img height='1600' src='https://unsplash.it/1200/1600?image=266' width='1200'>
+      <img height='1600' src='https://fotos.hoteles.net/articulos/koskinou-rodas-grecia-5729-1.jpg' width='1200'>
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://unsplash.it/1200/1200?image=634'>
     <figure class='gallery-image'>
-      <img height='1200' src='https://unsplash.it/1200/1200?image=634' width='1200'>
+      <img height='1200' src='https://www.escapadalowcost.com/wp-content/uploads/2017/10/que-ver-en-brujas-belgica.jpg' width='1200'>
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://unsplash.it/1000/1400?image=923'>
     <figure class='gallery-image'>
-      <img height='1400' src='https://unsplash.it/1000/1400?image=923' width='1000'>
+      <img height='1400' src='https://www.naptravel.com/usr/images/6649_079346170579.jpg' width='1000'>
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://unsplash.it/1200/1000?image=682'>
     <figure class='gallery-image'>
-      <img height='1000' src='https://unsplash.it/1200/1000?image=682' width='1200'>
+      <img height='1000' src='https://blog.rockthetraveller.com/wp-content/uploads/2017/09/Visita-los-pa%C3%ADses-m%C3%A1s-fr%C3%ADos-del-mundo-y-enam%C3%B3rate-de-sus-paisajes-slider-1.jpg' width='1200'>
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://unsplash.it/1000/1400?image=173'>
     <figure class='gallery-image'>
-      <img height='1400' src='https://unsplash.it/1000/1400?image=173' width='1000'>
+      <img height='1400' src='https://www.naptravel.com/usr/images/6857_padua-lead.jpg' width='1000'>
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
   <a class='gallery-link' href='https://unsplash.it/1000/1400?image=943'>
     <figure class='gallery-image'>
-      <img height='1400' src='https://unsplash.it/1000/1400?image=943' width='1000'>
+      <img height='1400' src='https://www.naptravel.com/usr/images/6154_visita-guiada-museo-louvre-paris-o.jpg' width='1000'>
       <figcaption>Photo caption</figcaption>
     </figure>
   </a>
