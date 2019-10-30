@@ -20,6 +20,7 @@ Route::get('/editar', function () {
 Route::get('/pf', function () {
     return view('pf');
 });
+
 Route::get('/contacto', function () {
     return view('contactos');
 });
