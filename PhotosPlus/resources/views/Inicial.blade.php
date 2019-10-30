@@ -38,7 +38,7 @@
                         
 
                         <a href="{{ url('/home') }}">
-                        <button class="cta-contact">Perfil</button>
+                        <button class="cta-contact">Cuenta</button>
 
 
                     @else
@@ -59,7 +59,7 @@
     <div>
       <h1>Comienza a Editar</h1>
       <p>Solo necesitas imaginarlo para crearlo</p>
-      <p></p>
+      <a href=""> Edita </a>
     </div>
   </main>
 
