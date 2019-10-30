@@ -56,11 +56,14 @@
     </nav>
   </header>
   <main class="page-main">
+    
     <div>
       <h1>Comienza a Editar</h1>
       <p>Solo necesitas imaginarlo para crearlo</p>
-      <a href=""> Edita </a>
+      <section id="banner">
+      <a href=""> Editar </a>
     </div>
+    </section>
   </main>
 
 
