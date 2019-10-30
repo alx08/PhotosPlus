@@ -94,7 +94,10 @@ body {
   border: 1px solid;
   border-radius: 5px;
   margin-right:0;
+}
 
+.backgr {
+   background: var(--main-white-color);
 }
 
 
