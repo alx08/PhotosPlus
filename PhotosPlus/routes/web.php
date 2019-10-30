@@ -14,7 +14,9 @@
 Route::get('/', function () {
     return view('inicial');
 });
-
+Route::get('/editar', function () {
+    return view('editar');
+});
 
 Route::get('/pre', function () {
     return view('welcome');

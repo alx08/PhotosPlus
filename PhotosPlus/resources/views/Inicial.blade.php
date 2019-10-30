@@ -36,7 +36,6 @@
                 <div class="top-right links">
                     @auth
                         
-
                         <a href="{{ url('/home') }}">
                         <button class="cta-contact">Cuenta</button>
 
@@ -61,7 +60,7 @@
       <h1>Comienza a Editar</h1>
       <p>Solo necesitas imaginarlo para crearlo</p>
       <section id="banner">
-      <a href=""> Editar </a>
+      <a href="{{ url('/editar') }}"> Editar </a>
     </div>
     </section>
   </main>
