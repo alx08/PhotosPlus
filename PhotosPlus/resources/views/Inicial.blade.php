@@ -13,17 +13,32 @@
 <div class="wrapper">
   <header class="page-header">
     <nav>
-      <h2> <a href="{{ url('/') }}" class="logo">PhotoPlus</a></h2>
- 
+      <h2 class="logo">PhotoPlus</h2>
+
       <ul>
         <li>
-          <a href="{{ url('/contacto') }}">Contacto</a>
+          <a href="">Contacto</a>
         </li>
         <li>
-          <a href="{{ url('/pf') }}">Preguntas Frecuentes</a>
+          <a href="">Preguntas Frecuentes</a>
         </li>
       </ul>
-      
+      <!-- 
+      <ul>
+        <li>
+          <a href="">Work</a>
+        </li>
+        <li>
+          <a href="">Services</a>
+        </li>
+        <li>
+          <a href="">Team</a>
+        </li>
+        <li>
+          <a href="">Careers</a>
+        </li>
+      </ul>
+      -->
       
       @if (Route::has('login'))
                 <div class="top-right links">
@@ -46,7 +61,7 @@
             @endif
     </nav>
   </header>
-
+  
   <main class="page-main">
     
     <div>
