@@ -51,10 +51,7 @@
     </nav>
   </header>
  
-<body>
-    
-            
-</body>
+
 
   
   <footer class="page-footer">
