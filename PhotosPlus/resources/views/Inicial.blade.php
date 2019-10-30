@@ -17,10 +17,10 @@
 
       <ul>
         <li>
-          <a href="">Contacto</a>
+          <a href="{{ url('/contacto') }}">Contacto</a>
         </li>
         <li>
-          <a href="">Preguntas Frecuentes</a>
+          <a href="{{ url('/pf') }}">Preguntas Frecuentes</a>
         </li>
       </ul>
       <!-- 
@@ -44,15 +44,14 @@
                 <div class="top-right links">
                     @auth
                         
-                        <a href="{{ url('/home') }}">
+                       <a href="{{ url('/home') }}">
                         <button class="cta-contact">Cuenta</button>
-
 
                     @else
                         <a href="{{ route('login') }}">
                         <button class="cta-contact">Ingresar</button>
-
-                        @if (Route::has('register'))
+                        
+                      @if (Route::has('register'))
                             <a href="{{ route('register') }}">
                             <button class="cta-contact">Registrar</button>
                         @endif
@@ -62,6 +61,7 @@
             @endif
     </nav>
   </header>
+
   <main class="page-main">
     
     <div>
